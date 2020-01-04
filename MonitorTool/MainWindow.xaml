@@ -1,0 +1,34 @@
+﻿<Window x:Class="MonitorTool.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+        xmlns:local="clr-namespace:MonitorTool"
+        mc:Ignorable="d"
+        ResizeMode="CanMinimize" WindowStartupLocation="CenterScreen"
+        Title="Monitor Tool" Height="500" Width="1000" Closing="Window_Closing">
+    <!--Main grid-->
+    <Grid>
+        <!--buttons grid-->
+        <Grid Margin="1,1,1,1" Height="500" Width="150" VerticalAlignment="Top" HorizontalAlignment="Left" Background='LightGray' >
+
+            <!--Hadrware Section-->
+            <materialDesign:PackIcon Margin="50,50,0,0" Height="50" Width="50" Kind="Harddisk" HorizontalAlignment="Left" VerticalAlignment="Top"></materialDesign:PackIcon>
+            <Button  x:Name="SystemHardwareButton" Margin="0,100,0,0" Width="149" Height="50" VerticalAlignment="Top" HorizontalAlignment="Left" Content="System Hardware info" Click="SystemHardwareButton_Click" BorderThickness="1" BorderBrush="White" Background="BurlyWood" FontWeight="Bold"  ></Button>
+            <!--Software Section-->
+            <materialDesign:PackIcon Margin="50,150,0,0" Height="50" Width="50" Kind="Application" HorizontalAlignment="Left" VerticalAlignment="Top"></materialDesign:PackIcon>
+            <Button  x:Name="SystemSoftwareButton"   Margin="0,200,0,0" Width="149" Height="50" VerticalAlignment="Top" HorizontalAlignment="Left" Content="System Software Info" BorderThickness="1" BorderBrush="White" Click="SystemSoftwareButton_Click" Background="BurlyWood" FontWeight="Bold"  ></Button>
+            <!--Perfomance Section-->
+            <materialDesign:PackIcon Margin="50,250,0,0" Height="50" Width="50" Kind="NetworkStrength1" HorizontalAlignment="Left" VerticalAlignment="Top"></materialDesign:PackIcon>
+            <Button  x:Name="PerfomanceMonitoringButton"   Margin="0,300,0,0" Width="149" Height="50" VerticalAlignment="Top" HorizontalAlignment="Left" Content="Perfomance Monitoring" BorderThickness="1" BorderBrush="White"   Click="PerfomanceMonitoringButton_Click" Background="BurlyWood" FontWeight="Bold" ></Button>
+
+            <!--current time text box-->
+            <TextBlock x:Name="CurrentTimeTextBox" Margin="5,0,0,50" VerticalAlignment="Bottom" HorizontalAlignment="Left" TextWrapping="NoWrap" FontWeight="Bold" ></TextBlock>
+        </Grid>
+        <!--pages grid-->
+        <Grid Margin="150,1,1,1" Height="500" Width="850" VerticalAlignment="Top" HorizontalAlignment="Left" Background="SlateGray" >
+        <UserControl x:Name="ActivateItem" ></UserControl>
+        </Grid>
+    </Grid>
+</Window>

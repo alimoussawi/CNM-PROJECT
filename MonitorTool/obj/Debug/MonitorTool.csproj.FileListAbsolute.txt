@@ -1,0 +1,56 @@
+C:\Users\alous\source\repos\MonitorTool\MonitorTool\bin\Debug\MonitorTool.exe.config
+C:\Users\alous\source\repos\MonitorTool\MonitorTool\bin\Debug\MonitorTool.exe
+C:\Users\alous\source\repos\MonitorTool\MonitorTool\bin\Debug\MonitorTool.pdb
+C:\Users\alous\source\repos\MonitorTool\MonitorTool\obj\Debug\MonitorTool.csprojAssemblyReference.cache
+C:\Users\alous\source\repos\MonitorTool\MonitorTool\obj\Debug\MainWindow.g.cs
+C:\Users\alous\source\repos\MonitorTool\MonitorTool\obj\Debug\App.g.cs
+C:\Users\alous\source\repos\MonitorTool\MonitorTool\obj\Debug\MonitorTool_MarkupCompile.cache
+C:\Users\alous\source\repos\MonitorTool\MonitorTool\obj\Debug\MonitorTool_MarkupCompile.lref
+C:\Users\alous\source\repos\MonitorTool\MonitorTool\obj\Debug\MainWindow.baml
+C:\Users\alous\source\repos\MonitorTool\MonitorTool\obj\Debug\MonitorTool.g.resources
+C:\Users\alous\source\repos\MonitorTool\MonitorTool\obj\Debug\MonitorTool.Properties.Resources.resources
+C:\Users\alous\source\repos\MonitorTool\MonitorTool\obj\Debug\MonitorTool.csproj.GenerateResource.cache
+C:\Users\alous\source\repos\MonitorTool\MonitorTool\obj\Debug\MonitorTool.csproj.CoreCompileInputs.cache
+C:\Users\alous\source\repos\MonitorTool\MonitorTool\obj\Debug\MonitorTool.exe
+C:\Users\alous\source\repos\MonitorTool\MonitorTool\obj\Debug\MonitorTool.pdb
+C:\Users\alous\source\repos\MonitorTool\MonitorTool\obj\Debug\SystemHardware.g.cs
+C:\Users\alous\source\repos\MonitorTool\MonitorTool\obj\Debug\SystemHardware.baml
+C:\Users\alous\source\repos\MonitorTool\MonitorTool\bin\Debug\MaterialDesignColors.dll
+C:\Users\alous\source\repos\MonitorTool\MonitorTool\bin\Debug\MaterialDesignThemes.Wpf.dll
+C:\Users\alous\source\repos\MonitorTool\MonitorTool\bin\Debug\MaterialDesignColors.pdb
+C:\Users\alous\source\repos\MonitorTool\MonitorTool\bin\Debug\MaterialDesignThemes.Wpf.pdb
+C:\Users\alous\source\repos\MonitorTool\MonitorTool\bin\Debug\MaterialDesignThemes.Wpf.xml
+C:\Users\alous\source\repos\MonitorTool\MonitorTool\obj\Debug\App.baml
+C:\Users\alous\source\repos\MonitorTool\MonitorTool\obj\Debug\MonitorTool.csproj.CopyComplete
+C:\Users\alous\source\repos\MonitorTool\MonitorTool\obj\Debug\PerfomanceMonitoring.g.cs
+C:\Users\alous\source\repos\MonitorTool\MonitorTool\obj\Debug\SystemSoftware.g.cs
+C:\Users\alous\source\repos\MonitorTool\MonitorTool\obj\Debug\PerfomanceMonitoring.baml
+C:\Users\alous\source\repos\MonitorTool\MonitorTool\obj\Debug\SystemSoftware.baml
+C:\Users\alous\Desktop\university\Computer network managment 2019-2020\assignments\assign 5\Application\MonitorTool\MonitorTool\bin\Debug\MonitorTool.exe.config
+C:\Users\alous\Desktop\university\Computer network managment 2019-2020\assignments\assign 5\Application\MonitorTool\MonitorTool\bin\Debug\MonitorTool.exe
+C:\Users\alous\Desktop\university\Computer network managment 2019-2020\assignments\assign 5\Application\MonitorTool\MonitorTool\bin\Debug\MonitorTool.pdb
+C:\Users\alous\Desktop\university\Computer network managment 2019-2020\assignments\assign 5\Application\MonitorTool\MonitorTool\bin\Debug\MaterialDesignColors.dll
+C:\Users\alous\Desktop\university\Computer network managment 2019-2020\assignments\assign 5\Application\MonitorTool\MonitorTool\bin\Debug\MaterialDesignThemes.Wpf.dll
+C:\Users\alous\Desktop\university\Computer network managment 2019-2020\assignments\assign 5\Application\MonitorTool\MonitorTool\bin\Debug\MaterialDesignColors.pdb
+C:\Users\alous\Desktop\university\Computer network managment 2019-2020\assignments\assign 5\Application\MonitorTool\MonitorTool\bin\Debug\MaterialDesignThemes.Wpf.pdb
+C:\Users\alous\Desktop\university\Computer network managment 2019-2020\assignments\assign 5\Application\MonitorTool\MonitorTool\bin\Debug\MaterialDesignThemes.Wpf.xml
+C:\Users\alous\Desktop\university\Computer network managment 2019-2020\assignments\assign 5\Application\MonitorTool\MonitorTool\obj\Debug\MonitorTool.csprojAssemblyReference.cache
+C:\Users\alous\Desktop\university\Computer network managment 2019-2020\assignments\assign 5\Application\MonitorTool\MonitorTool\obj\Debug\MainWindow.g.cs
+C:\Users\alous\Desktop\university\Computer network managment 2019-2020\assignments\assign 5\Application\MonitorTool\MonitorTool\obj\Debug\PerfomanceMonitoring.g.cs
+C:\Users\alous\Desktop\university\Computer network managment 2019-2020\assignments\assign 5\Application\MonitorTool\MonitorTool\obj\Debug\SystemHardware.g.cs
+C:\Users\alous\Desktop\university\Computer network managment 2019-2020\assignments\assign 5\Application\MonitorTool\MonitorTool\obj\Debug\SystemSoftware.g.cs
+C:\Users\alous\Desktop\university\Computer network managment 2019-2020\assignments\assign 5\Application\MonitorTool\MonitorTool\obj\Debug\App.g.cs
+C:\Users\alous\Desktop\university\Computer network managment 2019-2020\assignments\assign 5\Application\MonitorTool\MonitorTool\obj\Debug\MonitorTool_MarkupCompile.cache
+C:\Users\alous\Desktop\university\Computer network managment 2019-2020\assignments\assign 5\Application\MonitorTool\MonitorTool\obj\Debug\MonitorTool_MarkupCompile.lref
+C:\Users\alous\Desktop\university\Computer network managment 2019-2020\assignments\assign 5\Application\MonitorTool\MonitorTool\obj\Debug\App.baml
+C:\Users\alous\Desktop\university\Computer network managment 2019-2020\assignments\assign 5\Application\MonitorTool\MonitorTool\obj\Debug\MainWindow.baml
+C:\Users\alous\Desktop\university\Computer network managment 2019-2020\assignments\assign 5\Application\MonitorTool\MonitorTool\obj\Debug\PerfomanceMonitoring.baml
+C:\Users\alous\Desktop\university\Computer network managment 2019-2020\assignments\assign 5\Application\MonitorTool\MonitorTool\obj\Debug\SystemHardware.baml
+C:\Users\alous\Desktop\university\Computer network managment 2019-2020\assignments\assign 5\Application\MonitorTool\MonitorTool\obj\Debug\SystemSoftware.baml
+C:\Users\alous\Desktop\university\Computer network managment 2019-2020\assignments\assign 5\Application\MonitorTool\MonitorTool\obj\Debug\MonitorTool.g.resources
+C:\Users\alous\Desktop\university\Computer network managment 2019-2020\assignments\assign 5\Application\MonitorTool\MonitorTool\obj\Debug\MonitorTool.Properties.Resources.resources
+C:\Users\alous\Desktop\university\Computer network managment 2019-2020\assignments\assign 5\Application\MonitorTool\MonitorTool\obj\Debug\MonitorTool.csproj.GenerateResource.cache
+C:\Users\alous\Desktop\university\Computer network managment 2019-2020\assignments\assign 5\Application\MonitorTool\MonitorTool\obj\Debug\MonitorTool.csproj.CoreCompileInputs.cache
+C:\Users\alous\Desktop\university\Computer network managment 2019-2020\assignments\assign 5\Application\MonitorTool\MonitorTool\obj\Debug\MonitorTool.csproj.CopyComplete
+C:\Users\alous\Desktop\university\Computer network managment 2019-2020\assignments\assign 5\Application\MonitorTool\MonitorTool\obj\Debug\MonitorTool.exe
+C:\Users\alous\Desktop\university\Computer network managment 2019-2020\assignments\assign 5\Application\MonitorTool\MonitorTool\obj\Debug\MonitorTool.pdb

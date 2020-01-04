@@ -1,0 +1,31 @@
+﻿<UserControl x:Class="MonitorTool.PerfomanceMonitoring"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:MonitorTool"
+             mc:Ignorable="d" 
+             d:DesignHeight="500" d:DesignWidth="850" Background="SlateGray">
+    <Grid>
+        <!--CPU UTIL-->
+        <Label Content="CPU UTILIZATION :" Margin="50,75,0,0"  VerticalAlignment="Top" HorizontalAlignment="Left" FontWeight="Bold" ></Label>
+        <TextBlock x:Name="CpuUtilTB" Margin="170,80,0,0"   VerticalAlignment="Top" HorizontalAlignment="Left" Foreground="Black" FontWeight="SemiBold"></TextBlock>
+        <ProgressBar x:Name="ProcessorUtilPB" Margin="50,105,0,0" Height="30" Width="200" HorizontalAlignment="Left" VerticalAlignment="Top" ></ProgressBar>
+        <!--MEM Util-->
+        <Label Content="MEMORY UTILIZATION :" Margin="50,150,0,0"  VerticalAlignment="Top" HorizontalAlignment="Left" FontWeight="Bold" ></Label>
+        <TextBlock x:Name="MemUtilTB" Margin="200,155,0,0"   VerticalAlignment="Top" HorizontalAlignment="Left" Foreground="Black" FontWeight="SemiBold"></TextBlock>
+        <ProgressBar x:Name="MemUtilPB" Margin="50,180,0,0" Height="30" Width="200" HorizontalAlignment="Left" VerticalAlignment="Top" ></ProgressBar>
+
+        <!--DISK Util-->
+        <Label Content="DISK UTILIZATION :" Margin="50,230,0,0"  VerticalAlignment="Top" HorizontalAlignment="Left"  FontWeight="Bold"></Label>
+        <TextBlock x:Name="DiskUtilTB" Margin="180,235,0,0"   VerticalAlignment="Top" HorizontalAlignment="Left" Foreground="Black" FontWeight="SemiBold" ></TextBlock>
+        <ProgressBar x:Name="DiskUtilPB" Margin="50,260,0,0" Height="30" Width="200" HorizontalAlignment="Left" VerticalAlignment="Top" ></ProgressBar>
+
+        <!--NET UTIL-->
+        <Rectangle Margin="450,100,0,0" Width="200" Height="150" StrokeThickness="2" Stroke="Black" VerticalAlignment="Top" HorizontalAlignment="Left"></Rectangle>
+        <Label Content="NETWORK UTILIZATION " Margin="475,110,0,0"  VerticalAlignment="Top" HorizontalAlignment="Left" FontWeight="Bold"></Label>
+        <Label Content="Total Send/Recieved Bytes :" Margin="475,140,0,0"  VerticalAlignment="Top" HorizontalAlignment="Left" FontWeight="Bold" ></Label>
+        <TextBlock x:Name="NetUtilTB" Margin="520,180,0,0"   VerticalAlignment="Top" HorizontalAlignment="Left" Foreground="Black" FontWeight="SemiBold" ></TextBlock>
+
+    </Grid>
+</UserControl>
