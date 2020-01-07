@@ -26,6 +26,7 @@
         <Label Content="NETWORK UTILIZATION " Margin="475,110,0,0"  VerticalAlignment="Top" HorizontalAlignment="Left" FontWeight="Bold"></Label>
         <Label Content="Total Send/Recieved Bytes :" Margin="475,140,0,0"  VerticalAlignment="Top" HorizontalAlignment="Left" FontWeight="Bold" ></Label>
         <TextBlock x:Name="NetUtilTB" Margin="520,180,0,0"   VerticalAlignment="Top" HorizontalAlignment="Left" Foreground="Black" FontWeight="SemiBold" ></TextBlock>
-
+        <Label Content="CHOOSE NETWORK ADAPTER BELOW " Margin="450,250,0,0"  VerticalAlignment="Top" HorizontalAlignment="Left" FontWeight="Bold"></Label>
+        <ListBox x:Name="NetAdaptersList" Margin="450,280,0,0" VerticalAlignment="Top" HorizontalAlignment="Left" Height="180" Width="200"  SelectionChanged="NetAdaptersList_SelectionChanged"></ListBox>
     </Grid>
 </UserControl>

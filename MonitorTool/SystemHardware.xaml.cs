@@ -95,44 +95,50 @@ namespace MonitorTool
         }
         private void GetBatteryInfo()
         {
-            System.Management.ManagementClass wmi = new System.Management.ManagementClass("Win32_Battery");
-            var providers = wmi.GetInstances();
-            foreach (var provider in providers)
+            try
             {
-                int BatterySts =Convert.ToInt16(provider["BatteryStatus"]);
-                string sts;
-                switch (BatterySts)
+                System.Management.ManagementClass wmi = new System.Management.ManagementClass("Win32_Battery");
+                var providers = wmi.GetInstances();
+                foreach (var provider in providers)
                 {
-                    case 1:
-                        sts = "discharging";
-                        break;
-                    case 2:
-                        sts = "unknown";
-                        break;
-                    case 3:
-                        sts = "full";
-                        break;
-                    case 4:
-                        sts = "low";
-                        break;
-                    case 5:
-                        sts = "critical";
-                        break;
-                    case 6:
-                        sts = "charging and high";
-                        break;
-                    case 7:
-                        sts = "charging and low";
-                        break;
-                    default:
-                        sts = "not available";
+                    int BatterySts = Convert.ToInt16(provider["BatteryStatus"]);
+                    string sts;
+                    switch (BatterySts)
+                    {
+                        case 1:
+                            sts = "discharging";
                             break;
+                        case 2:
+                            sts = "unknown";
+                            break;
+                        case 3:
+                            sts = "full";
+                            break;
+                        case 4:
+                            sts = "low";
+                            break;
+                        case 5:
+                            sts = "critical";
+                            break;
+                        case 6:
+                            sts = "charging and high";
+                            break;
+                        case 7:
+                            sts = "charging and low";
+                            break;
+                        default:
+                            sts = "not available";
+                            break;
+                    }
+
+                    BatteryStatus.Text = sts;
+
                 }
-
-                BatteryStatus.Text = sts;
-
             }
-
+            catch (Exception e)
+            {
+                MessageBox.Show(e.ToString(),"ERROR");
+            }
         }
         private void GetControllerInfo()
         {

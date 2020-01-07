@@ -27,10 +27,12 @@ namespace MonitorTool
         PerformanceCounter MemPerfomance = new PerformanceCounter();
         PerformanceCounter NetPerfomance = new PerformanceCounter();
         PerformanceCounter DiskPerfomance = new PerformanceCounter();
+        string MachineName = System.Environment.MachineName;
 
         public PerfomanceMonitoring()
         {
             InitializeComponent();
+            GetAllNetAdapters();
             Timer.Tick += new EventHandler(Timer_Tick);
             Timer.Interval = new TimeSpan(0, 0, 1);
             Timer.Start();
@@ -43,7 +45,7 @@ namespace MonitorTool
             /////////////////////////////////////////////
             NetPerfomance.CategoryName = "Network Adapter";
             NetPerfomance.CounterName = "Bytes Total/sec";
-            NetPerfomance.InstanceName = "Broadcom 802.11n Network Adapter";
+            
             ///////////////////////////////////////////////
             DiskPerfomance.CategoryName = "LogicalDisk";
             DiskPerfomance.CounterName = "% Disk Time";
@@ -52,10 +54,28 @@ namespace MonitorTool
 
         private void Timer_Tick(object sender, EventArgs e)
         {
+            if (!string.IsNullOrEmpty( NetPerfomance.InstanceName))
+            {
+               
+                GetNetUtil();
+               
+            }
             GetCpuUtil();
             GetMemUtil();
-            GetNetUtil();
             GetDiskUtil();
+        }
+        private void GetAllNetAdapters()
+        {
+            var netQuery = new SelectQuery("Win32_NetworkAdapter");
+            var mgmtScope = new ManagementScope("\\\\" + MachineName + "\\root\\cimv2");
+            mgmtScope.Connect();
+            var mgmtSrchr = new ManagementObjectSearcher(mgmtScope, netQuery);
+            foreach (var net in mgmtSrchr.Get())
+            {
+                NetAdaptersList.Items.Add(net.GetPropertyValue("Description").ToString());
+
+
+            }
         }
 
         private void GetDiskUtil()
@@ -66,11 +86,18 @@ namespace MonitorTool
         }
         private void GetNetUtil()
         {
-            float NetUtil = NetPerfomance.NextValue();
+            try
+            {
+                float NetUtil = NetPerfomance.NextValue();
 
-            
-            NetUtilTB.Text = NetUtil.ToString();
-        }
+
+                NetUtilTB.Text = NetUtil.ToString();
+            }
+            catch(Exception e)
+            {
+                NetUtilTB.Text = "UNAVAILABLE";
+            }
+            }
         private void GetCpuUtil()
         {
             float CPUUtil = CPUPerfomance.NextValue();
@@ -99,6 +126,11 @@ namespace MonitorTool
             }
             MemUtilPB.Value = MemUtil;
             MemUtilTB.Text = MemUtil.ToString();
+        }
+
+        private void NetAdaptersList_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+            NetPerfomance.InstanceName = NetAdaptersList.SelectedItem.ToString();
         }
     }
 }
